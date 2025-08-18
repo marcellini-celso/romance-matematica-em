@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Romance da Matemática"
+  description: "Histórias e desafios que dão vida à Matemática do Ensino Médio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Início
+      - text: Capítulos
+        menu:
+          - href: capitulos/cap1-funcao-quadratica.qmd
+            text: Capítulo 1 — Função Quadrática
+          - href: capitulos/cap2-numeros-conjuntos.qmd
+            text: Capítulo 2 — Reino dos Números
+          - href: capitulos/cap3-conjuntos.qmd
+            text: Capítulo 3 — Jornada dos Conjuntos
+    right:
+      - text: GitHub
+        href: https://github.com/SEU_USUARIO/romance-matematica-em
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: right
+    code-copy: true
+    css: styles.css

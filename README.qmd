@@ -1,3 +1,11 @@
+---
+title: "Romance da Matemática: Aventuras no Ensino Médio"
+subtitle: "Histórias e desafios que dão vida à Matemática do Ensino Médio"
+author: "Blog do Marcellini"
+format: html
+lang: pt-BR
+---
+
 # ✨ Romance da Matemática: Aventuras no Ensino Médio  
 **Histórias e desafios que dão vida à Matemática do Ensino Médio**
 
@@ -20,7 +28,7 @@ A proposta é transformar o estudo da matemática em uma **jornada envolvente**,
 ## 📂 Estrutura do Repositório
 ```
 romance-matematica-em/
-├── README.md             # este arquivo
+├── README.qmd            # este arquivo
 ├── LICENSE               # licença do projeto
 ├── capitulos/            # capítulos em .qmd ou .md
 │   ├── cap1-funcao-quadratica.qmd

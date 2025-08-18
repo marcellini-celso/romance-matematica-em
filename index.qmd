@@ -1,0 +1,43 @@
+---
+title: "Romance da Matemática: Aventuras no Ensino Médio"
+format: html
+lang: pt-BR
+---
+
+# 📘 Romance da Matemática
+
+Bem-vindo ao **Romance da Matemática: Aventuras no Ensino Médio**!  
+Aqui, a Matemática é contada como **história**: personagens, desafios e descobertas conectam teoria, prática e aplicações reais.
+
+Cada capítulo une: **narrativa**, **ENEM (cotidiano)**, **vestibulares clássicos (rigor)**, **gabaritos comentados** e **visualizações computacionais** (Python/R).
+
+---
+
+## 🚪 Comece por aqui
+- [Capítulo 1 — A Função Quadrática](capitulos/cap1-funcao-quadratica.qmd)  
+- [Capítulo 2 — O Reino dos Números](capitulos/cap2-numeros-conjuntos.qmd)  
+- [Capítulo 3 — A Jornada dos Conjuntos](capitulos/cap3-conjuntos.qmd)
+
+> Dica: você pode abrir os arquivos `.qmd` para ver a narrativa e os desafios.
+
+---
+
+## ℹ️ Sobre o projeto
+Este site é gerado com [Quarto](https://quarto.org/) e está vinculado ao repositório GitHub **romance-matematica-em**.
+
+- **Descrição curta (GitHub):** Histórias e desafios que dão vida à Matemática do Ensino Médio
+- **Autor:** Blog do Marcellini
+
+---
+
+## 🛠️ Como construir localmente
+```bash
+quarto render
+quarto preview
+```
+
+Se preferir publicar no GitHub Pages, configure a pasta `docs/` como destino e ative o Pages.
+
+---
+
+Boa leitura e boas aventuras matemáticas! ✨

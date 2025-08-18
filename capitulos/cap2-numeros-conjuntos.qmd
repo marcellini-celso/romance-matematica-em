@@ -1,0 +1,19 @@
+---
+title: "Capítulo 2 — O Reino dos Números"
+format: html
+lang: pt-BR
+---
+
+# Capítulo 2 — O Reino dos Números
+
+Neste capítulo, exploramos os diferentes tipos de números:  
+naturais, inteiros, racionais, irracionais e reais, apresentados de forma romanceada.
+
+## Cena Narrativa
+(O protagonista descobre o Reino dos Números, onde cada conjunto tem seu papel.)
+
+## Exemplos e Exercícios
+(Questões do ENEM e de vestibulares sobre conjuntos numéricos.)
+
+## Gabarito
+(Resoluções detalhadas e comentadas.)
