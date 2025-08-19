@@ -28,3 +28,4 @@ format:
     toc-location: right
     code-copy: true
     css: styles.css
+    include-in-header: analytics.html
