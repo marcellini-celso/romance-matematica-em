@@ -1,0 +1,48 @@
+---
+title: "🧑‍🏫 Sobre"
+description: "Espaço para textos mais pessoais, reflexões livres, relatos de experiências, bastidores do blog e notas do autor."
+author: "Romance da Matemática"
+date: 2025-08-19
+lang: pt-BR
+categories: [sobre, sumário, sobre o site, sobre mim]
+tags: [sobre, sumário, sobre o site, sobre mim]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+---
+
+# 📘 🧑‍🏫 Artigos e Reflexões
+
+## [📘 🧑‍🏫 Sobre Mim e Sobre o Blog](sobre-o-blog.qmd)
+Apresentação do propósito, estrutura e linha editorial do Blog do Marcellini.
+
+Breve apresentação do autor, formação, interesses e motivações.
+
+---
+
+🔝 [Voltar ao Topo](index.qmd)
+
+---
+
+*Romance da Matemática: Aventuras no Ensino Médio*
+
+:::{.callout-note}
+*Criado por Romance da Matemática com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/sobre/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/romance-matematica-em.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+

@@ -1,0 +1,51 @@
+[
+  {
+    "title": "🧑‍🏫 Sobre",
+    "href": "posts/sobre/index.html",
+    "tags": [
+      "sobre",
+      "sumário",
+      "sobre o site",
+      "sobre mim"
+    ]
+  },
+  {
+    "title": "📘 🧑‍💻 Sobre o Site e Sobre Mim",
+    "href": "posts/sobre/sobre-o-blog.html",
+    "tags": [
+      "sobre",
+      "sobre o site",
+      "sobre mim"
+    ]
+  },
+  {
+    "title": "📘 Capítulo 1 — A Função do 2º Grau",
+    "href": "posts/capitulos/cap1-funcao-quadratica.html",
+    "tags": [
+      "quadrática",
+      "parábola",
+      "bhaskara",
+      "discriminante"
+    ]
+  },
+  {
+    "title": "Capítulo 3 — A Jornada dos Conjuntos",
+    "href": "posts/capitulos/cap3-conjuntos.html",
+    "tags": [
+      "quadrática",
+      "parábola",
+      "bhaskara",
+      "discriminante"
+    ]
+  },
+  {
+    "title": "Capítulo 2 — O Reino dos Números",
+    "href": "posts/capitulos/cap2-numeros-conjuntos.html",
+    "tags": [
+      "quadrática",
+      "parábola",
+      "bhaskara",
+      "discriminante"
+    ]
+  }
+]

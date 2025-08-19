@@ -1,0 +1,49 @@
+---
+title: "Capítulo 3 — A Jornada dos Conjuntos"
+description: ""
+author: "Romance da Matemática: Aventuras no Ensino Médio"
+date: 2025-08-18
+lang: pt-BR
+categories: [conjuntos, ensino médio, álgebra]
+tags: [quadrática, parábola, bhaskara, discriminante]
+page-layout: full
+execute:
+  eval: true
+format:
+  html:
+    toc: true
+---
+
+---
+
+# Capítulo 3 — A Jornada dos Conjuntos
+
+Aqui, vamos explorar os conjuntos, suas operações e representações gráficas  
+através de histórias e metáforas que tornam os conceitos mais claros.
+
+## Cena Narrativa
+(O protagonista recebe um mapa mágico representado por Diagramas de Venn...)
+
+## Exemplos e Exercícios
+(Questões contextualizadas e desafios de vestibulares sobre conjuntos.)
+
+## Gabarito
+(Resoluções detalhadas e comentadas.)
+
+---
+
+🔝 [Voltar ao Topo](cap3-conjuntos.qmd)
+
+---
+
+*Romance da Matemática: Aventuras no Ensino Médio*
+
+:::{.callout-note}
+*Criado por Romance da Matemática: Aventuras no Ensino Médio com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre](../../posts/sobre/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/romance-matematica-em.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)

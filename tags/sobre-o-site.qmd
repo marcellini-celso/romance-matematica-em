@@ -1,0 +1,11 @@
+---
+title: "sobre o site"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **sobre o site**
+
+- [🧑‍🏫 Sobre](/posts/sobre/index.html)
+- [📘 🧑‍💻 Sobre o Site e Sobre Mim](/posts/sobre/sobre-o-blog.html)

@@ -1,0 +1,71 @@
+---
+title: "📘 Capítulo 1 — A Função do 2º Grau"
+description: "Narrativa + ENEM + vestibular: parábolas, raízes, vértice e aplicações."
+author: "Romance da Matemática: Aventuras no Ensino Médio"
+date: 2025-08-18
+lang: pt-BR
+categories: [funções, ensino médio, álgebra]
+tags: [quadrática, parábola, bhaskara, discriminante]
+page-layout: full
+execute:
+  eval: true
+format:
+  html:
+    toc: true
+---
+
+---
+
+# Cena Narrativa
+
+Lucas caminhava pelo "Reino dos Gráficos" quando encontrou uma ponte arqueada…
+
+# Desafio ENEM
+
+(Coloque aqui a questão contextualizada.)
+
+# Desafio de Vestibular
+
+(Coloque aqui o problema mais rigoroso.)
+
+# Gabarito
+
+(Resoluções comentadas.)
+
+# Visualização Computacional
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+f = lambda x: -x**2 + 6*x - 8
+x = np.linspace(0, 6, 400)
+y = f(x)
+
+plt.figure(figsize=(6,4))
+plt.plot(x, y, label=r"$f(x)=-x^2+6x-8$")
+plt.axhline(0, linestyle="--")
+plt.scatter([2,4],[0,0], label="raízes")
+plt.scatter([3],[1], marker="s", label="vértice")
+plt.legend()
+plt.grid(True, linestyle=":")
+plt.title("A Ponte-Parábola do Reino dos Gráficos")
+plt.show()
+```
+---
+
+🔝 [Voltar ao Topo](cap1-funcao-quadratica.qmd)
+
+---
+
+*Romance da Matemática: Aventuras no Ensino Médio*
+
+:::{.callout-note}
+*Criado por Romance da Matemática: Aventuras no Ensino Médio com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre](../../posts/sobre/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/romande-matematica-em.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)

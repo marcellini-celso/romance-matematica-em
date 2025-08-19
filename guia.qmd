@@ -1,0 +1,65 @@
+---
+title: "🗺️ Mapa do Site"
+description: "Todos os cursos, artigos, séries e categorias organizadas do Blog do Marcellini"
+author: "Romance da Matemática: Aventuras no Ensino Médio"
+date: 2025-08-19
+lang: pt-BR
+categories: [mapa do site, guia de leitura]
+tags: [mapa do site, guia de leitura]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+---
+
+# 📚 Romance da Matemática: Aventuras no Ensino Médio
+
+- 🧮 [Capítulos](posts/capitulos/)
+
+# 🧑‍🏫 Sobre
+
+- [🧑‍🏫 Todos os posts da Seção Sobre](posts/sobre/index.qmd)
+
+# 📘 Outros
+
+- [🧑‍🏫 Sobre o Blog](posts/sobre/sobre-o-blog.qmd)
+- [📬 Contato por E-mail](mailto:prof.marcellini@gmail.com)
+- [💻 Repositório no GitHub](https://github.com/marcellini-celso/romance-matematica-em.git)
+
+# 🏷️ Tags
+
+- [🏷️ Explorar por Tags](tags.qmd)
+
+# 🗂️ Categorias
+
+- [🗂️ Explorar por Categorias](categories.qmd)
+
+📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
+
+---
+
+🔝 [Voltar ao Topo](guia.qmd)
+
+---
+
+*Romance da Matemática: Aventuras no Ensino Médio*
+
+:::{.callout-note}
+*Criado por Romance da Matemática: Aventuras no Ensino Médio com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre](posts/sobre/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/romande-matematica-em.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+

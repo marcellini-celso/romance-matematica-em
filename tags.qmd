@@ -1,0 +1,23 @@
+---
+title: "Tags"
+format: html
+page-layout: full
+---
+
+::: {.tag-nuvem}
+![](nuvem_tags.png){width=100%}
+:::
+
+## 📚 Todas as Tags
+
+::: {.tag-grid}
+
+<a href="/tags/bhaskara.html" class="tag-card">bhaskara (3)</a>
+<a href="/tags/discriminante.html" class="tag-card">discriminante (3)</a>
+<a href="/tags/parabola.html" class="tag-card">parábola (3)</a>
+<a href="/tags/quadratica.html" class="tag-card">quadrática (3)</a>
+<a href="/tags/sobre.html" class="tag-card">sobre (2)</a>
+<a href="/tags/sobre-mim.html" class="tag-card">sobre mim (2)</a>
+<a href="/tags/sobre-o-site.html" class="tag-card">sobre o site (2)</a>
+<a href="/tags/sumario.html" class="tag-card">sumário (1)</a>
+:::

@@ -1,31 +1,64 @@
 project:
   type: website
   output-dir: docs
+  pre-render: "python3 gerar_posts_json.py"
 
 website:
   title: "Romance da Matemática"
-  description: "Histórias e desafios que dão vida à Matemática do Ensino Médio"
+  favicon: images/banner.jpeg
+  site-url: https://marcellini-celso.github.io/romance-matematica-em/index.html
+
   navbar:
     left:
       - href: index.qmd
         text: Início
-      - text: Capítulos
+      - href: tags.qmd
+        text: "🏷️ Tags"
+      - href: categories.qmd
+        text: "📂 Categorias"
+      - text: "🧠 Capítulos"
         menu:
-          - href: capitulos/cap1-funcao-quadratica.qmd
-            text: Capítulo 1 — Função Quadrática
-          - href: capitulos/cap2-numeros-conjuntos.qmd
-            text: Capítulo 2 — Reino dos Números
-          - href: capitulos/cap3-conjuntos.qmd
-            text: Capítulo 3 — Jornada dos Conjuntos
+          - text: "🧮 Capítulo 1"
+            href: posts/capitulos/cap1-funcao-quadratica.qmd
+          - text: "📊 Capítulo 2"
+            href: posts/capitulos/cap2-numeros-conjuntos.qmd
+          - text: "🔭 Capítulo 3"
+            href: posts/capitulos/cap3-conjuntos.qmd
+      - text: "📝 Sobre"
+        menu:
+          - text: "👤 Sobre Mim e Sobre o Blog"
+            href: posts/sobre/sobre-o-blog.qmd
+      - href: guia.qmd
+        text: "🗺️ Mapa do Site"
     right:
-      - text: GitHub
-        href: https://github.com/SEU_USUARIO/romance-matematica-em
+      - icon: envelope
+        text: "Contato"
+        href: "mailto:prof.marcellini@gmail.com"
+
+  page-footer:
+    left: "© 2025 - Romance da Matemática"
+    right: >
+      📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)<br>
+      💻 <a href="https://github.com/marcellini-celso/romance-matematica-em.git" target="_blank">GitHub do Projeto</a>
 
 format:
   html:
     theme: cosmo
+    css:
+      - styles.css
+      - assets/css/custom.css
     toc: true
     toc-location: right
+    toc-title: "Nesta página"
     code-copy: true
-    css: styles.css
+    highlight-style: github
     include-in-header: analytics.html
+
+search: true
+
+publish:
+  provider: gh-pages
+
+resources:
+  - posts.json
+

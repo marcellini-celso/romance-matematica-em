@@ -1,0 +1,49 @@
+---
+title: "Capítulo 2 — O Reino dos Números"
+description: ""
+author: "Romance da Matemática: Aventuras no Ensino Médio"
+date: 2025-08-18
+lang: pt-BR
+categories: [números, ensino médio, álgebra]
+tags: [quadrática, parábola, bhaskara, discriminante]
+page-layout: full
+execute:
+  eval: true
+format:
+  html:
+    toc: true
+---
+
+---
+
+# Capítulo 2 — O Reino dos Números
+
+Neste capítulo, exploramos os diferentes tipos de números:  
+naturais, inteiros, racionais, irracionais e reais, apresentados de forma romanceada.
+
+## Cena Narrativa
+(O protagonista descobre o Reino dos Números, onde cada conjunto tem seu papel.)
+
+## Exemplos e Exercícios
+(Questões do ENEM e de vestibulares sobre conjuntos numéricos.)
+
+## Gabarito
+(Resoluções detalhadas e comentadas.)
+
+---
+
+🔝 [Voltar ao Topo](cap2-numeros-conjuntos.qmd)
+
+---
+
+*Romance da Matemática: Aventuras no Ensino Médio*
+
+:::{.callout-note}
+*Criado por Romance da Matemática: Aventuras no Ensino Médio com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre](../../posts/sobre/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/romance-matematica-em.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)

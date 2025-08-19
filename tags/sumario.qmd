@@ -1,0 +1,10 @@
+---
+title: "sumário"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **sumário**
+
+- [🧑‍🏫 Sobre](/posts/sobre/index.html)

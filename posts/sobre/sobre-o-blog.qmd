@@ -1,0 +1,136 @@
+---
+title: "📘 🧑‍💻 Sobre o Site e Sobre Mim"
+description: "Saiba mais sobre o autor, a proposta do site, como ele foi feito e os bastidores técnicos do projeto."
+author: "Romance da Matemática: Aventuras no Ensino Médio"
+date: 2025-08-19
+lang: pt-BR
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+categories: [sobre, sobre o site, sobre mim]
+tags: [sobre, sobre o site, sobre mim]
+---
+
+---
+
+[← Voltar para a Seção do Blog Pessoal 🧑‍🏫](/posts/sobre/)
+
+---
+
+# 👋 Sobre Mim
+
+::: {.callout-tip collapse=false icon='🌟'}
+Este blog nasceu do desejo de compartilhar ideias, experiências e aprendizados sobre ciência, matemática e programação com pessoas curiosas e interessadas.
+:::
+
+Meu nome é Celso Marcellini, sou Bacharel em Matemática pelo Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP), e este blog nasceu do desejo de explorar matemática, estatística, física, LaTeX, Quarto e programação de forma acessível e visual.
+
+
+::: {.callout-note icon="✍️" title="✍️ Reflexão do autor"}
+
+Sou formado em matemática pura, e sempre fui apaixonado pela teoria da relatividade, tanto especial quanto geral.  
+A matemática que estrutura essas teorias físicas é, para mim, de uma beleza indescritível.
+
+Uma das ideias mais marcantes que encontrei foi a noção de **quadrivetor velocidade** no espaço-tempo quadridimensional.  
+Perceber que uma grandeza física como a velocidade pode ser expressa como um vetor no espaço de Minkowski — com a soma quadrática de suas componentes igual a $c^2$ — me revelou algo de extrema profundidade.
+
+Quando compreendi que, para qualquer corpo com massa, a **norma do quadrivetor velocidade** é sempre $c$, entendi também o seguinte:  
+se estamos em repouso, nossa velocidade espacial é zero, e nossa velocidade temporal é $c$;  
+à medida que nos movemos, parte dessa “velocidade total” é transferida ao espaço, reduzindo nossa velocidade no tempo.  
+Mas a soma vetorial — no sentido da métrica pseudo-euclideana — permanece constante.  
+Isso implica, de forma direta, a **dilatação temporal**: envelhecemos menos quando estamos em movimento.
+
+Mais tarde, ao estudar relatividade geral, descobri que o espaço-tempo é uma **variedade diferencial pseudo-riemanniana**, com uma métrica que se curva em resposta à presença de massa e energia.  
+A frase de Wheeler me acompanhou desde então:
+
+> *“O espaço diz à matéria como ela deve se mover, e a matéria diz ao espaço como ele deve se curvar.”*
+
+Essa síntese é, para mim, de uma beleza ímpar.
+
+Também me encanta a ideia de que a física ainda busca uma **teoria unificada** — algo que integre a relatividade geral com a mecânica quântica.  
+Se um dia conseguirmos explicar o macro e o micro com uma só estrutura matemática coerente, isso será, sem dúvida, um triunfo supremo do pensamento humano.
+
+Por fim, como matemático, reconheço a mesma beleza nos alicerces formais da própria matemática.  
+A forma axiomática como desenvolvemos teoremas, estruturas e teorias exige elegância, coerência e inevitabilidade.  
+Não é por acaso que Hardy disse que **a beleza é o primeiro teste**.  
+Essa afirmação não é apenas filosófica — é um critério silencioso que nos guia enquanto provamos.
+
+:::
+
+
+# 💡 Sobre o Blog
+
+Este blog foi construído com o [Quarto](https://quarto.org), uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX.
+
+## Tecnologias utilizadas
+
+- **Quarto**: para renderização de arquivos `.qmd` em HTML
+- **RevealJS**: para apresentações interativas
+- **MathJax**: para fórmulas matemáticas
+- **AWS S3** ou **GitHub Pages**: para hospedagem como site estático
+- **TikZ + PNG**: diagramas convertidos e incorporados
+- **Tema Bootstrap `cosmo`** e `styles.scss` customizado
+
+## Estrutura geral
+
+- `index.qmd`: página inicial
+- `posts/*.qmd`: cada post individual
+- `sobre.qmd`: sobre o autor
+- `images/`: imagens utilizadas
+- `_quarto.yml`: configurações do site
+
+---
+
+## 🛠️ Como Este Projeto Funciona
+
+
+### 📜 Scripts ativos
+
+- `atualizar-ultimos-posts.sh`:  
+  Gera a lista dos últimos posts publicados com base na data e salva em um bloco reutilizável (por exemplo, `ultimos_posts.qmd`).
+
+- `gerar_posts_json.py`:  
+  Percorre todos os arquivos `.qmd` do blog e extrai metadados (título, tags, caminho) para gerar o arquivo `docs/posts.json`, que é usado em scripts de tags e navegação.
+
+- `gerar_tags.py`:  
+  Lê o arquivo `posts.json` e gera os arquivos `tags_freq.txt`, `tags.qmd`, `lista_tags_gerada.html` com a contagem de cada tag usada no blog.
+
+- `nuvem_tags.py`:  
+  Gera a imagem `nuvem_tags.png` com uma nuvem de palavras baseada na frequência das tags, usada no post de navegação por tags.
+
+- `atualizar_tags.sh`:  
+  Gera as páginas individuais para cada tag (`tags/*.qmd`), atualiza o arquivo `tags.qmd` com links, e executa a geração da nuvem de tags.
+
+- `atualizar_tudo.sh`:  
+  Executa todos os scripts anteriores em ordem lógica (últimos posts → JSON → tags → nuvem), garantindo que tudo esteja atualizado com um único comando.
+
+---
+
+[← Voltar para a Seção do Blog Pessoal 🧑‍🏫](/posts/sobre/)
+
+---
+
+🔝 [Voltar ao Topo](sobre-o-blog.qmd)
+
+---
+
+**
+
+:::{.callout-note}
+*Criado por Romance da Matemática: Aventuras no Ensino Médio com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/sobre/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-pt.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+

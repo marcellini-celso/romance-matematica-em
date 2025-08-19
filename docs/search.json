@@ -1,128 +1,254 @@
 [
   {
-    "objectID": "capitulos/cap3-conjuntos.html",
-    "href": "capitulos/cap3-conjuntos.html",
-    "title": "Capítulo 3 — A Jornada dos Conjuntos",
+    "objectID": "guia.html",
+    "href": "guia.html",
+    "title": "🗺️ Mapa do Site",
     "section": "",
-    "text": "Aqui, vamos explorar os conjuntos, suas operações e representações gráficas\natravés de histórias e metáforas que tornam os conceitos mais claros.\n\n\n(O protagonista recebe um mapa mágico representado por Diagramas de Venn…)\n\n\n\n(Questões contextualizadas e desafios de vestibulares sobre conjuntos.)\n\n\n\n(Resoluções detalhadas e comentadas.)"
+    "text": "1 📚 Romance da Matemática: Aventuras no Ensino Médio\n\n🧮 Capítulos\n\n\n\n2 🧑‍🏫 Sobre\n\n🧑‍🏫 Todos os posts da Seção Sobre\n\n\n\n3 📘 Outros\n\n🧑‍🏫 Sobre o Blog\n📬 Contato por E-mail\n💻 Repositório no GitHub\n\n\n\n4 🏷️ Tags\n\n🏷️ Explorar por Tags\n\n\n\n5 🗂️ Categorias\n\n🗂️ Explorar por Categorias\n\n📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.\n\n🔝 Voltar ao Topo\n\nRomance da Matemática: Aventuras no Ensino Médio\n\n\n\n\n\n\nNota\n\n\n\nCriado por Romance da Matemática: Aventuras no Ensino Médio com ❤️ e código.\n\n\n\n\n6 🔗 Links Úteis\n\n🧑‍🏫 Sobre\n💻 GitHub do Projeto\n📬 Contato por E-mail"
   },
   {
-    "objectID": "capitulos/cap3-conjuntos.html#cena-narrativa",
-    "href": "capitulos/cap3-conjuntos.html#cena-narrativa",
-    "title": "Capítulo 3 — A Jornada dos Conjuntos",
+    "objectID": "tags/bhaskara.html",
+    "href": "tags/bhaskara.html",
+    "title": "bhaskara",
     "section": "",
-    "text": "(O protagonista recebe um mapa mágico representado por Diagramas de Venn…)"
+    "text": "⬅ Voltar para Todas as Tags"
   },
   {
-    "objectID": "capitulos/cap3-conjuntos.html#exemplos-e-exercícios",
-    "href": "capitulos/cap3-conjuntos.html#exemplos-e-exercícios",
-    "title": "Capítulo 3 — A Jornada dos Conjuntos",
-    "section": "",
-    "text": "(Questões contextualizadas e desafios de vestibulares sobre conjuntos.)"
+    "objectID": "tags/bhaskara.html#posts-com-a-tag-bhaskara",
+    "href": "tags/bhaskara.html#posts-com-a-tag-bhaskara",
+    "title": "bhaskara",
+    "section": "Posts com a tag bhaskara",
+    "text": "Posts com a tag bhaskara\n\n📘 Capítulo 1 — A Função do 2º Grau\nCapítulo 3 — A Jornada dos Conjuntos\nCapítulo 2 — O Reino dos Números"
   },
   {
-    "objectID": "capitulos/cap3-conjuntos.html#gabarito",
-    "href": "capitulos/cap3-conjuntos.html#gabarito",
-    "title": "Capítulo 3 — A Jornada dos Conjuntos",
+    "objectID": "tags/quadratica.html",
+    "href": "tags/quadratica.html",
+    "title": "quadrática",
     "section": "",
-    "text": "(Resoluções detalhadas e comentadas.)"
+    "text": "⬅ Voltar para Todas as Tags"
   },
   {
-    "objectID": "capitulos/cap1-funcao-quadratica.html",
-    "href": "capitulos/cap1-funcao-quadratica.html",
-    "title": "Capítulo 1 — A Função Quadrática",
-    "section": "",
-    "text": "Bem-vindo ao primeiro capítulo do Romance da Matemática.\nAqui, vamos conhecer a função quadrática através de uma narrativa romanceada,\nquestões do ENEM e desafios de vestibulares clássicos.\n\n\n(Insira aqui a história inicial com o protagonista encontrando a Função Quadrática…)\n\n\n\n(Insira aqui uma questão contextualizada do ENEM.)\n\n\n\n(Insira aqui um problema clássico de vestibular, como Fuvest ou Unicamp.)\n\n\n\n(Resoluções detalhadas e comentadas.)\n\n\n\n(Use Python/R para plotar gráficos e ilustrar conceitos.)"
+    "objectID": "tags/quadratica.html#posts-com-a-tag-quadrática",
+    "href": "tags/quadratica.html#posts-com-a-tag-quadrática",
+    "title": "quadrática",
+    "section": "Posts com a tag quadrática",
+    "text": "Posts com a tag quadrática\n\n📘 Capítulo 1 — A Função do 2º Grau\nCapítulo 3 — A Jornada dos Conjuntos\nCapítulo 2 — O Reino dos Números"
   },
   {
-    "objectID": "capitulos/cap1-funcao-quadratica.html#cena-narrativa",
-    "href": "capitulos/cap1-funcao-quadratica.html#cena-narrativa",
-    "title": "Capítulo 1 — A Função Quadrática",
+    "objectID": "tags/sobre.html",
+    "href": "tags/sobre.html",
+    "title": "sobre",
     "section": "",
-    "text": "(Insira aqui a história inicial com o protagonista encontrando a Função Quadrática…)"
+    "text": "⬅ Voltar para Todas as Tags"
   },
   {
-    "objectID": "capitulos/cap1-funcao-quadratica.html#questão-enem",
-    "href": "capitulos/cap1-funcao-quadratica.html#questão-enem",
-    "title": "Capítulo 1 — A Função Quadrática",
-    "section": "",
-    "text": "(Insira aqui uma questão contextualizada do ENEM.)"
+    "objectID": "tags/sobre.html#posts-com-a-tag-sobre",
+    "href": "tags/sobre.html#posts-com-a-tag-sobre",
+    "title": "sobre",
+    "section": "Posts com a tag sobre",
+    "text": "Posts com a tag sobre\n\n🧑‍🏫 Sobre\n📘 🧑‍💻 Sobre o Site e Sobre Mim"
   },
   {
-    "objectID": "capitulos/cap1-funcao-quadratica.html#questão-avançada",
-    "href": "capitulos/cap1-funcao-quadratica.html#questão-avançada",
-    "title": "Capítulo 1 — A Função Quadrática",
+    "objectID": "tags/sumario.html",
+    "href": "tags/sumario.html",
+    "title": "sumário",
     "section": "",
-    "text": "(Insira aqui um problema clássico de vestibular, como Fuvest ou Unicamp.)"
+    "text": "⬅ Voltar para Todas as Tags"
   },
   {
-    "objectID": "capitulos/cap1-funcao-quadratica.html#gabarito",
-    "href": "capitulos/cap1-funcao-quadratica.html#gabarito",
-    "title": "Capítulo 1 — A Função Quadrática",
-    "section": "",
-    "text": "(Resoluções detalhadas e comentadas.)"
+    "objectID": "tags/sumario.html#posts-com-a-tag-sumário",
+    "href": "tags/sumario.html#posts-com-a-tag-sumário",
+    "title": "sumário",
+    "section": "Posts com a tag sumário",
+    "text": "Posts com a tag sumário\n\n🧑‍🏫 Sobre"
   },
   {
-    "objectID": "capitulos/cap1-funcao-quadratica.html#visualização-computacional",
-    "href": "capitulos/cap1-funcao-quadratica.html#visualização-computacional",
-    "title": "Capítulo 1 — A Função Quadrática",
+    "objectID": "tags.html#todas-as-tags",
+    "href": "tags.html#todas-as-tags",
+    "title": "Tags",
+    "section": "📚 Todas as Tags",
+    "text": "📚 Todas as Tags\n\nbhaskara (3) discriminante (3) parábola (3) quadrática (3) sobre (2) sobre mim (2) sobre o site (2) sumário (1)"
+  },
+  {
+    "objectID": "posts/capitulos/cap2-numeros-conjuntos.html#cena-narrativa",
+    "href": "posts/capitulos/cap2-numeros-conjuntos.html#cena-narrativa",
+    "title": "Capítulo 2 — O Reino dos Números",
+    "section": "Cena Narrativa",
+    "text": "Cena Narrativa\n(O protagonista descobre o Reino dos Números, onde cada conjunto tem seu papel.)"
+  },
+  {
+    "objectID": "posts/capitulos/cap2-numeros-conjuntos.html#exemplos-e-exercícios",
+    "href": "posts/capitulos/cap2-numeros-conjuntos.html#exemplos-e-exercícios",
+    "title": "Capítulo 2 — O Reino dos Números",
+    "section": "Exemplos e Exercícios",
+    "text": "Exemplos e Exercícios\n(Questões do ENEM e de vestibulares sobre conjuntos numéricos.)"
+  },
+  {
+    "objectID": "posts/capitulos/cap2-numeros-conjuntos.html#gabarito",
+    "href": "posts/capitulos/cap2-numeros-conjuntos.html#gabarito",
+    "title": "Capítulo 2 — O Reino dos Números",
+    "section": "Gabarito",
+    "text": "Gabarito\n(Resoluções detalhadas e comentadas.)\n\n🔝 Voltar ao Topo\n\nRomance da Matemática: Aventuras no Ensino Médio\n\n\n\n\n\n\nNota\n\n\n\nCriado por Romance da Matemática: Aventuras no Ensino Médio com ❤️ e código."
+  },
+  {
+    "objectID": "posts/capitulos/cap1-funcao-quadratica.html",
+    "href": "posts/capitulos/cap1-funcao-quadratica.html",
+    "title": "📘 Capítulo 1 — A Função do 2º Grau",
     "section": "",
-    "text": "(Use Python/R para plotar gráficos e ilustrar conceitos.)"
+    "text": "Cena Narrativa\nLucas caminhava pelo “Reino dos Gráficos” quando encontrou uma ponte arqueada…\n\n\nDesafio ENEM\n(Coloque aqui a questão contextualizada.)\n\n\nDesafio de Vestibular\n(Coloque aqui o problema mais rigoroso.)\n\n\nGabarito\n(Resoluções comentadas.)\n\n\nVisualização Computacional\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nf = lambda x: -x**2 + 6*x - 8\nx = np.linspace(0, 6, 400)\ny = f(x)\n\nplt.figure(figsize=(6,4))\nplt.plot(x, y, label=r\"$f(x)=-x^2+6x-8$\")\nplt.axhline(0, linestyle=\"--\")\nplt.scatter([2,4],[0,0], label=\"raízes\")\nplt.scatter([3],[1], marker=\"s\", label=\"vértice\")\nplt.legend()\nplt.grid(True, linestyle=\":\")\nplt.title(\"A Ponte-Parábola do Reino dos Gráficos\")\nplt.show()\n\n\n\n\n\n\n\n\n\n🔝 Voltar ao Topo\n\nRomance da Matemática: Aventuras no Ensino Médio\n\n\n\n\n\n\nNota\n\n\n\nCriado por Romance da Matemática: Aventuras no Ensino Médio com ❤️ e código.\n\n\n\n\n🔗 Links Úteis\n\n🧑‍🏫 Sobre\n💻 GitHub do Projeto\n📬 Contato por E-mail"
+  },
+  {
+    "objectID": "posts/sobre/index.html#sobre-mim-e-sobre-o-blog",
+    "href": "posts/sobre/index.html#sobre-mim-e-sobre-o-blog",
+    "title": "🧑‍🏫 Sobre",
+    "section": "1.1 📘 🧑‍🏫 Sobre Mim e Sobre o Blog",
+    "text": "1.1 📘 🧑‍🏫 Sobre Mim e Sobre o Blog\nApresentação do propósito, estrutura e linha editorial do Blog do Marcellini.\nBreve apresentação do autor, formação, interesses e motivações.\n\n🔝 Voltar ao Topo\n\nRomance da Matemática: Aventuras no Ensino Médio\n\n\n\n\n\n\nNota\n\n\n\nCriado por Romance da Matemática com ❤️ e código."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Romance da Matemática: Aventuras no Ensino Médio",
+    "title": "📘 Romance da Matemática: Aventuras no Ensino Médio",
     "section": "",
-    "text": "Bem-vindo ao Romance da Matemática: Aventuras no Ensino Médio!\nAqui, a Matemática é contada como história: personagens, desafios e descobertas conectam teoria, prática e aplicações reais.\nCada capítulo une: narrativa, ENEM (cotidiano), vestibulares clássicos (rigor), gabaritos comentados e visualizações computacionais (Python/R).\n\n\n\n\nCapítulo 1 — A Função Quadrática\n\nCapítulo 2 — O Reino dos Números\n\nCapítulo 3 — A Jornada dos Conjuntos\n\n\nDica: você pode abrir os arquivos .qmd para ver a narrativa e os desafios.\n\n\n\n\n\nEste site é gerado com Quarto e está vinculado ao repositório GitHub romance-matematica-em.\n\nDescrição curta (GitHub): Histórias e desafios que dão vida à Matemática do Ensino Médio\nAutor: Blog do Marcellini\n\n\n\n\n\nquarto render\nquarto preview\nSe preferir publicar no GitHub Pages, configure a pasta docs/ como destino e ative o Pages.\n\nBoa leitura e boas aventuras matemáticas! ✨"
+    "text": "Bem-vindo ao Romance da Matemática: Aventuras no Ensino Médio!\nAqui, a Matemática é contada como história: personagens, desafios e descobertas conectam teoria, prática e aplicações reais.\nCada capítulo une: narrativa, ENEM (cotidiano), vestibulares clássicos (rigor), gabaritos comentados e visualizações computacionais (Python/R)."
   },
   {
     "objectID": "index.html#comece-por-aqui",
     "href": "index.html#comece-por-aqui",
-    "title": "Romance da Matemática: Aventuras no Ensino Médio",
-    "section": "",
-    "text": "Capítulo 1 — A Função Quadrática\n\nCapítulo 2 — O Reino dos Números\n\nCapítulo 3 — A Jornada dos Conjuntos\n\n\nDica: você pode abrir os arquivos .qmd para ver a narrativa e os desafios."
+    "title": "📘 Romance da Matemática: Aventuras no Ensino Médio",
+    "section": "🚪 Comece por aqui",
+    "text": "🚪 Comece por aqui\n\nCapítulo 1 — A Função Quadrática\n\nCapítulo 2 — O Reino dos Números\n\nCapítulo 3 — A Jornada dos Conjuntos\n\n\nDica: você pode abrir os arquivos .qmd para ver a narrativa e os desafios."
   },
   {
     "objectID": "index.html#ℹ-sobre-o-projeto",
     "href": "index.html#ℹ-sobre-o-projeto",
-    "title": "Romance da Matemática: Aventuras no Ensino Médio",
-    "section": "",
-    "text": "Este site é gerado com Quarto e está vinculado ao repositório GitHub romance-matematica-em.\n\nDescrição curta (GitHub): Histórias e desafios que dão vida à Matemática do Ensino Médio\nAutor: Blog do Marcellini"
+    "title": "📘 Romance da Matemática: Aventuras no Ensino Médio",
+    "section": "ℹ️ Sobre o projeto",
+    "text": "ℹ️ Sobre o projeto\nEste site é gerado com Quarto e está vinculado ao repositório GitHub romance-matematica-em.\n\nDescrição curta (GitHub): Histórias e desafios que dão vida à Matemática do Ensino Médio\nAutor: Romance da Matemática: Aventuras no Ensino Médio"
   },
   {
     "objectID": "index.html#como-construir-localmente",
     "href": "index.html#como-construir-localmente",
-    "title": "Romance da Matemática: Aventuras no Ensino Médio",
-    "section": "",
-    "text": "quarto render\nquarto preview\nSe preferir publicar no GitHub Pages, configure a pasta docs/ como destino e ative o Pages.\n\nBoa leitura e boas aventuras matemáticas! ✨"
+    "title": "📘 Romance da Matemática: Aventuras no Ensino Médio",
+    "section": "🛠️ Como construir localmente",
+    "text": "🛠️ Como construir localmente\nquarto render\nquarto preview\nSe preferir publicar no GitHub Pages, configure a pasta docs/ como destino e ative o Pages.\n\nBoa leitura e boas aventuras matemáticas! ✨\n\n\n📘 Capítulo 1 — A Função do 2º Grau\nCapítulo 3 — A Jornada dos Conjuntos\nCapítulo 2 — O Reino dos Números \n\nRomance da Matemática: Aventuras no Ensino Médio\n\n\n\n\n\n\nNota\n\n\n\nCriado por Romance da Matemática: Aventuras no Ensino Médio com ❤️ e código."
   },
   {
-    "objectID": "capitulos/cap2-numeros-conjuntos.html",
-    "href": "capitulos/cap2-numeros-conjuntos.html",
-    "title": "Capítulo 2 — O Reino dos Números",
+    "objectID": "posts/sobre/sobre-o-blog.html",
+    "href": "posts/sobre/sobre-o-blog.html",
+    "title": "📘 🧑‍💻 Sobre o Site e Sobre Mim",
     "section": "",
-    "text": "Neste capítulo, exploramos os diferentes tipos de números:\nnaturais, inteiros, racionais, irracionais e reais, apresentados de forma romanceada.\n\n\n(O protagonista descobre o Reino dos Números, onde cada conjunto tem seu papel.)\n\n\n\n(Questões do ENEM e de vestibulares sobre conjuntos numéricos.)\n\n\n\n(Resoluções detalhadas e comentadas.)"
+    "text": "← Voltar para a Seção do Blog Pessoal 🧑‍🏫"
   },
   {
-    "objectID": "capitulos/cap2-numeros-conjuntos.html#cena-narrativa",
-    "href": "capitulos/cap2-numeros-conjuntos.html#cena-narrativa",
-    "title": "Capítulo 2 — O Reino dos Números",
-    "section": "",
-    "text": "(O protagonista descobre o Reino dos Números, onde cada conjunto tem seu papel.)"
+    "objectID": "posts/sobre/sobre-o-blog.html#tecnologias-utilizadas",
+    "href": "posts/sobre/sobre-o-blog.html#tecnologias-utilizadas",
+    "title": "📘 🧑‍💻 Sobre o Site e Sobre Mim",
+    "section": "2.1 Tecnologias utilizadas",
+    "text": "2.1 Tecnologias utilizadas\n\nQuarto: para renderização de arquivos .qmd em HTML\nRevealJS: para apresentações interativas\nMathJax: para fórmulas matemáticas\nAWS S3 ou GitHub Pages: para hospedagem como site estático\nTikZ + PNG: diagramas convertidos e incorporados\nTema Bootstrap cosmo e styles.scss customizado"
   },
   {
-    "objectID": "capitulos/cap2-numeros-conjuntos.html#exemplos-e-exercícios",
-    "href": "capitulos/cap2-numeros-conjuntos.html#exemplos-e-exercícios",
-    "title": "Capítulo 2 — O Reino dos Números",
-    "section": "",
-    "text": "(Questões do ENEM e de vestibulares sobre conjuntos numéricos.)"
+    "objectID": "posts/sobre/sobre-o-blog.html#estrutura-geral",
+    "href": "posts/sobre/sobre-o-blog.html#estrutura-geral",
+    "title": "📘 🧑‍💻 Sobre o Site e Sobre Mim",
+    "section": "2.2 Estrutura geral",
+    "text": "2.2 Estrutura geral\n\nindex.qmd: página inicial\nposts/*.qmd: cada post individual\nsobre.qmd: sobre o autor\nimages/: imagens utilizadas\n_quarto.yml: configurações do site"
   },
   {
-    "objectID": "capitulos/cap2-numeros-conjuntos.html#gabarito",
-    "href": "capitulos/cap2-numeros-conjuntos.html#gabarito",
-    "title": "Capítulo 2 — O Reino dos Números",
+    "objectID": "posts/sobre/sobre-o-blog.html#como-este-projeto-funciona",
+    "href": "posts/sobre/sobre-o-blog.html#como-este-projeto-funciona",
+    "title": "📘 🧑‍💻 Sobre o Site e Sobre Mim",
+    "section": "2.3 🛠️ Como Este Projeto Funciona",
+    "text": "2.3 🛠️ Como Este Projeto Funciona\n\n2.3.1 📜 Scripts ativos\n\natualizar-ultimos-posts.sh:\nGera a lista dos últimos posts publicados com base na data e salva em um bloco reutilizável (por exemplo, ultimos_posts.qmd).\ngerar_posts_json.py:\nPercorre todos os arquivos .qmd do blog e extrai metadados (título, tags, caminho) para gerar o arquivo docs/posts.json, que é usado em scripts de tags e navegação.\ngerar_tags.py:\nLê o arquivo posts.json e gera os arquivos tags_freq.txt, tags.qmd, lista_tags_gerada.html com a contagem de cada tag usada no blog.\nnuvem_tags.py:\nGera a imagem nuvem_tags.png com uma nuvem de palavras baseada na frequência das tags, usada no post de navegação por tags.\natualizar_tags.sh:\nGera as páginas individuais para cada tag (tags/*.qmd), atualiza o arquivo tags.qmd com links, e executa a geração da nuvem de tags.\natualizar_tudo.sh:\nExecuta todos os scripts anteriores em ordem lógica (últimos posts → JSON → tags → nuvem), garantindo que tudo esteja atualizado com um único comando.\n\n\n← Voltar para a Seção do Blog Pessoal 🧑‍🏫\n\n🔝 Voltar ao Topo\n\n**\n\n\n\n\n\n\nNota\n\n\n\nCriado por Romance da Matemática: Aventuras no Ensino Médio com ❤️ e código."
+  },
+  {
+    "objectID": "posts/capitulos/cap3-conjuntos.html#cena-narrativa",
+    "href": "posts/capitulos/cap3-conjuntos.html#cena-narrativa",
+    "title": "Capítulo 3 — A Jornada dos Conjuntos",
+    "section": "Cena Narrativa",
+    "text": "Cena Narrativa\n(O protagonista recebe um mapa mágico representado por Diagramas de Venn…)"
+  },
+  {
+    "objectID": "posts/capitulos/cap3-conjuntos.html#exemplos-e-exercícios",
+    "href": "posts/capitulos/cap3-conjuntos.html#exemplos-e-exercícios",
+    "title": "Capítulo 3 — A Jornada dos Conjuntos",
+    "section": "Exemplos e Exercícios",
+    "text": "Exemplos e Exercícios\n(Questões contextualizadas e desafios de vestibulares sobre conjuntos.)"
+  },
+  {
+    "objectID": "posts/capitulos/cap3-conjuntos.html#gabarito",
+    "href": "posts/capitulos/cap3-conjuntos.html#gabarito",
+    "title": "Capítulo 3 — A Jornada dos Conjuntos",
+    "section": "Gabarito",
+    "text": "Gabarito\n(Resoluções detalhadas e comentadas.)\n\n🔝 Voltar ao Topo\n\nRomance da Matemática: Aventuras no Ensino Médio\n\n\n\n\n\n\nNota\n\n\n\nCriado por Romance da Matemática: Aventuras no Ensino Médio com ❤️ e código."
+  },
+  {
+    "objectID": "categories.html",
+    "href": "categories.html",
+    "title": "Romance da Matemática",
     "section": "",
-    "text": "(Resoluções detalhadas e comentadas.)"
+    "text": "Capítulo 3 — A Jornada dos Conjuntos\n\n\n\nconjuntos\n\nensino médio\n\nálgebra\n\n\n\n\n\n\n\nRomance da Matemática: Aventuras no Ensino Médio\n\n\n18 de ago. de 2025\n\n\n\n\n\n\n\n\n\n\n\n📘 Capítulo 1 — A Função do 2º Grau\n\n\n\nfunções\n\nensino médio\n\nálgebra\n\n\n\nNarrativa + ENEM + vestibular: parábolas, raízes, vértice e aplicações.\n\n\n\nRomance da Matemática: Aventuras no Ensino Médio\n\n\n18 de ago. de 2025\n\n\n\n\n\n\n\n\n\n\n\n🗺️ Mapa do Site\n\n\n\nmapa do site\n\nguia de leitura\n\n\n\nTodos os cursos, artigos, séries e categorias organizadas do Blog do Marcellini\n\n\n\nRomance da Matemática: Aventuras no Ensino Médio\n\n\n19 de ago. de 2025\n\n\n\n\n\n\n\n\n\n\n\nCapítulo 2 — O Reino dos Números\n\n\n\nnúmeros\n\nensino médio\n\nálgebra\n\n\n\n\n\n\n\nRomance da Matemática: Aventuras no Ensino Médio\n\n\n18 de ago. de 2025\n\n\n\n\n\n\n\n\n\n\n\n📘 🧑‍💻 Sobre o Site e Sobre Mim\n\n\n\nsobre\n\nsobre o site\n\nsobre mim\n\n\n\nSaiba mais sobre o autor, a proposta do site, como ele foi feito e os bastidores técnicos do projeto.\n\n\n\nRomance da Matemática: Aventuras no Ensino Médio\n\n\n19 de ago. de 2025\n\n\n\n\n\n\n\n\n\n\n\n🧑‍🏫 Sobre\n\n\n\nsobre\n\nsumário\n\nsobre o site\n\nsobre mim\n\n\n\nEspaço para textos mais pessoais, reflexões livres, relatos de experiências, bastidores do blog e notas do autor.\n\n\n\nRomance da Matemática\n\n\n19 de ago. de 2025\n\n\n\n\n\n\n\n\n\n\n\n📘 Romance da Matemática: Aventuras no Ensino Médio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTags\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsumário\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsobre o site\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsobre\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsobre mim\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nquadrática\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndiscriminante\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nbhaskara\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nparábola\n\n\n\n\n\n\n\n\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "lista_tags_gerada.html",
+    "href": "lista_tags_gerada.html",
+    "title": "Romance da Matemática",
+    "section": "",
+    "text": "albert einstein (1 post)\nanálise combinatória (1 post)\nanálise de dados (2 posts)\nano milagroso (1 post)\narte e matemática (1 post)\nartigos de 1905 (1 post)\nbeleza matemática (1 post)\nblocos de código (2 posts)\ncabeçalho yaml (3 posts)\nconfiguração de post (1 post)\ncontração do comprimento (1 post)\ndefinição recursiva (1 post)\ndemonstrações elegantes (1 post)\ndivulgação científica (1 post)\ndocumentos científicos (2 posts)\nensino (1 post)\nepub (1 post)\nespaço-tempo (2 posts)\nestética matemática (1 post)\nestrutura de documento (1 post)\nestrutura de documentos (1 post)\nestrutura de site (1 post)\nfatorial de zero (1 post)\nfilosofia da matemática (1 post)\nfísica (2 posts)\nformatação (1 post)\nformatação de texto (1 post)\nfórmulas matemáticas (1 post)\ng.h. hardy (1 post)\ngráficos com ggplot2 (1 post)\ngráficos com python (1 post)\nhtml (3 posts)\nindex.qmd (1 post)\nintegração R e Quarto (1 post)\njustificativa lógica (1 post)\nlatex (2 posts)\nluz (1 post)\nmarkdown (1 post)\nmatemática (3 posts)\nmetadados (1 post)\nmodelos latex (1 post)\nnúmeros fatoriais (1 post)\norganização de capítulos (1 post)\nparâmetros yaml (1 post)\npessoal (1 post)\nprincípio multiplicativo (1 post)\nprogramação (6 posts)\nprojetos científicos (1 post)\npropósito do blog (1 post)\npython (2 posts)\nquarto (5 posts)\nR (1 post)\nreferencial inercial (1 post)\nrelatividade especial (1 post)\nrelatórios automatizados (1 post)\nrelatórios em R (1 post)\nrenderização latex (1 post)\nsimultaneidade (1 post)\nslides (1 post)\nsobre o blog (1 post)\ntabulate (1 post)\ntemplates quarto (1 post)\ntempo dilatado (1 post)\ntransformação de lorentz (1 post)\nvelocidade (1 post)\nvelocidade da luz (1 post)\nvisualização de dados (1 post)\nyaml no quarto (1 post)"
+  },
+  {
+    "objectID": "tags/sobre-o-site.html",
+    "href": "tags/sobre-o-site.html",
+    "title": "sobre o site",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/sobre-o-site.html#posts-com-a-tag-sobre-o-site",
+    "href": "tags/sobre-o-site.html#posts-com-a-tag-sobre-o-site",
+    "title": "sobre o site",
+    "section": "Posts com a tag sobre o site",
+    "text": "Posts com a tag sobre o site\n\n🧑‍🏫 Sobre\n📘 🧑‍💻 Sobre o Site e Sobre Mim"
+  },
+  {
+    "objectID": "tags/sobre-mim.html",
+    "href": "tags/sobre-mim.html",
+    "title": "sobre mim",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/sobre-mim.html#posts-com-a-tag-sobre-mim",
+    "href": "tags/sobre-mim.html#posts-com-a-tag-sobre-mim",
+    "title": "sobre mim",
+    "section": "Posts com a tag sobre mim",
+    "text": "Posts com a tag sobre mim\n\n🧑‍🏫 Sobre\n📘 🧑‍💻 Sobre o Site e Sobre Mim"
+  },
+  {
+    "objectID": "tags/discriminante.html",
+    "href": "tags/discriminante.html",
+    "title": "discriminante",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/discriminante.html#posts-com-a-tag-discriminante",
+    "href": "tags/discriminante.html#posts-com-a-tag-discriminante",
+    "title": "discriminante",
+    "section": "Posts com a tag discriminante",
+    "text": "Posts com a tag discriminante\n\n📘 Capítulo 1 — A Função do 2º Grau\nCapítulo 3 — A Jornada dos Conjuntos\nCapítulo 2 — O Reino dos Números"
+  },
+  {
+    "objectID": "tags/parabola.html",
+    "href": "tags/parabola.html",
+    "title": "parábola",
+    "section": "",
+    "text": "⬅ Voltar para Todas as Tags"
+  },
+  {
+    "objectID": "tags/parabola.html#posts-com-a-tag-parábola",
+    "href": "tags/parabola.html#posts-com-a-tag-parábola",
+    "title": "parábola",
+    "section": "Posts com a tag parábola",
+    "text": "Posts com a tag parábola\n\n📘 Capítulo 1 — A Função do 2º Grau\nCapítulo 3 — A Jornada dos Conjuntos\nCapítulo 2 — O Reino dos Números"
   }
 ]
