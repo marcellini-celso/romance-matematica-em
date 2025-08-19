@@ -1,0 +1,10 @@
+---
+title: "storytelling"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **storytelling**
+
+- [Sobre o Projeto e Sobre Mim](/posts/sobre/sobre-o-blog.html)

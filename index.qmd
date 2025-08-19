@@ -1,63 +1,154 @@
 ---
-title: "📘 Romance da Matemática: Aventuras no Ensino Médio"
-format: html
 lang: pt-BR
----
-<div class=invisivel>
-# 📘 Romance da Matemática: Aventuras no Ensino Médio
-</div>
-
-Bem-vindo ao **Romance da Matemática: Aventuras no Ensino Médio**!  
-Aqui, a Matemática é contada como **história**: personagens, desafios e descobertas conectam teoria, prática e aplicações reais.
-
-Cada capítulo une: **narrativa**, **ENEM (cotidiano)**, **vestibulares clássicos (rigor)**, **gabaritos comentados** e **visualizações computacionais** (Python/R).
-
----
-
-## 🚪 Comece por aqui
-- [Capítulo 1 — A Função Quadrática](posts/capitulos/cap1-funcao-quadratica.qmd)  
-- [Capítulo 2 — O Reino dos Números](posts/capitulos/cap2-numeros-conjuntos.qmd)  
-- [Capítulo 3 — A Jornada dos Conjuntos](posts/capitulos/cap3-conjuntos.qmd)
-
-> Dica: você pode abrir os arquivos `.qmd` para ver a narrativa e os desafios.
-
+format:
+  html:
+    toc: true
+    toc-title: "Nesta página"
+    number-sections: false
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
 ---
 
-## ℹ️ Sobre o projeto
-Este site é gerado com [Quarto](https://quarto.org/) e está vinculado ao repositório GitHub **romance-matematica-em**.
+![](images/romance-3.png){width=100% style="margin-bottom: 2rem;"}
 
-- **Descrição curta (GitHub):** Histórias e desafios que dão vida à Matemática do Ensino Médio
-- **Autor:** Romance da Matemática: Aventuras no Ensino Médio
+::: {.columns}
+::: {.column width="65%"}
+
+::: {.callout-note title="👋 Bem-vindo ao Romance da Matemática: Aventuras no Ensino Médio"}
+
+Uma jornada narrativa e visual pela Matemática do Ensino Médio — com exemplos guiados, minidesafios e aplicações do dia a dia.
+
+:::
+
+::: callout-note
+# 👉 O que é este projeto?
+
+**Romance da Matemática: Aventuras no Ensino Médio** é um site de aprendizagem por histórias (*storytelling*[^storytelling]) e resolução passo a passo. Cada capítulo apresenta um **enredo curto**, **conceitos-chave**, **exemplos resolvidos**, **minidesafios** e **exercícios com gabarito**. 
+
+[^storytelling]: *Storytelling* — em português, **narrativa** (contação de histórias). Usamos o termo em inglês por ser comum na literatura de ensino.
+:::
+
+::: callout-tip
+**🧑‍🏫 Para quem é?**  
+Estudantes do **Ensino Médio**, vestibulandos e professores que buscam exemplos claros, material reutilizável e **sequências didáticas** prontas para sala de aula.
+:::
+
+::: callout-tip
+# 🧭 Como usar o site
+- **📘 Leia a história** de abertura do capítulo para ativar a intuição.
+- **🧑‍💻 Estude os exemplos** com justificativas linha a linha.
+- **🧠 Tente os minidesafios** antes de olhar o gabarito.
+- **🔍 Compare soluções** no R/Excel/Python quando indicado.
+:::
+
+## 🗺️ Mapa rápido
+
+- **✨ Capítulo 1 — Função Quadrática**  →  <a href="posts/capitulos/cap1-funcao-quadratica.html">acessar</a>  
+  - Motivação, gráfico da parábola, vértice e concavidade  
+  - Zeros, forma canônica e interseções  
+  - Problemas contextualizados e minidesafios  
+
+- **✨ Coleções temáticas**  
+  - <a href="tags.html">🏷️ Explorar por tags</a>  
+  - <a href="categories.html">📂 Explorar por categorias</a>  
+
+:::
+
+::: {.column width="35%"}
+
+> “Matemática não é sobre números, equações, cálculos ou algoritmos; é sobre **compreensão**.”  
+> — *William P. Thurston*[^thurston]
+
+> “A matemática é a arte de dar o mesmo nome a coisas diferentes.”  
+> — *Henri Poincaré*[^poincare]
+
+> “A espécie humana pensa por metáforas e aprende por meio de histórias.”  
+> — *Mary Catherine Bateson*[^bateson]
+
+[^bateson]: Mary Catherine Bateson, *Composing a Life* (1989).  
+Original: *“The human species thinks in metaphors and learns through stories.”*
+
+[^thurston]: William P. Thurston, “On Proof and Progress in Mathematics”, *Bulletin of the American Mathematical Society* 30(2), 1994.  
+Original: *“Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.”*
+
+[^poincare]: Henri Poincaré, *Science et Méthode* (1908).  
+Original: *« Les mathématiques sont l’art de donner le même nom à des choses différentes. »*
+
+:::
+
+::: {.panel-tabset}
+
+
+## 🧑‍🏫 Sobre
+
+- [🧑‍🏫 Sobre](posts/sobre/index.html)
+
+## 🗺️ Mapa do Site
+
+- [🗺️ Mapa do Site](guia.qmd)
+
+:::
+
+## ❓ Perguntas frequentes (FAQ)
+
+**Posso reutilizar materiais?**  
+Sim, desde que respeitada a licença do repositório.
+
+**Onde encontro os arquivos-fonte?**  
+No GitHub do projeto (link no rodapé do site).
+
+**Como sugerir melhorias?**  
+Abra uma *issue*[^issue] no repositório — sugestões são muito bem-vindas!
+
+[^issue]: *Issue* — em português, **tópico de acompanhamento** (pedido/relato) usado para registrar tarefas e correções no GitHub.
 
 ---
 
-## 🛠️ Como construir localmente
-```bash
-quarto render
-quarto preview
-```
+## 📚 Créditos e referências
 
-Se preferir publicar no GitHub Pages, configure a pasta `docs/` como destino e ative o Pages.
+- 💡 **Inspiração didática**: aprendizagem ativa, resolução guiada e narrativa.  
+- 🧰 **Ferramentas**: Quarto (📄), R (📊), Python (🐍), LaTeX (🧮)
+
+<small class="text-muted">Este site utiliza componentes de interface do Bootstrap (via tema <code>cosmo</code>), imagens autorais e recursos educacionais abertos quando indicado.</small>
 
 ---
 
-Boa leitura e boas aventuras matemáticas! ✨
+🔝 [Voltar ao Topo](index.qmd)
 
-<!-- ULTIMOS-POSTS:BEGIN -->
+:::
 
-- [📘 Capítulo 1 — A Função do 2º Grau](posts/capitulos/cap1-funcao-quadratica.qmd)
-- [Capítulo 3 — A Jornada dos Conjuntos](posts/capitulos/cap3-conjuntos.qmd)
-- [Capítulo 2 — O Reino dos Números](posts/capitulos/cap2-numeros-conjuntos.qmd)
-<!-- ULTIMOS-POSTS:END -->
+---
 
-*Romance da Matemática: Aventuras no Ensino Médio*
+## 🆕 Últimos Posts
+
+Abaixo estão os conteúdos mais recentes publicados.
+
+<!-- inicio-ultimos-posts -->
+- [🧑‍🏫 Sobre](posts/sobre/index.html)
+- [Sobre o Projeto e Sobre Mim](posts/sobre/sobre-o-blog.html)
+- [📘 Capítulo 3 — A Jornada dos Conjuntos](posts/capitulos/cap3-conjuntos.html)
+- [📘 Capítulo 2 — O Reino dos Números](posts/capitulos/cap2-numeros-conjuntos.html)
+- [📘 Capítulo 1 — A Função do 2º Grau](posts/capitulos/cap1-funcao-quadratica.html)
+<!-- fim-ultimos-posts -->
+
+> Esta seção é atualizada automaticamente a cada nova publicação.
+
+---
+
+*Romance da Matemática: Aventuras no Ensino Médio -- Uma jornada narrativa e visual pela Matemática do Ensino Médio*
 
 :::{.callout-note}
 *Criado por Romance da Matemática: Aventuras no Ensino Médio com ❤️ e código.*
 :::
 
-# 🔗 Links Úteis
+## 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](posts/sobre/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/romance-matematica-em.git" target="_blank">GitHub do Projeto</a>
 - 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+
+

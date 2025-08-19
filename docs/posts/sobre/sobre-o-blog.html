@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Romance da Matemática: Aventuras no Ensino Médio">
-<meta name="description" content="Saiba mais sobre o autor, a proposta do site, como ele foi feito e os bastidores técnicos do projeto.">
+<meta name="author" content="Celso Marcellini">
+<meta name="description" content="O que é o Romance da Matemática, como funciona e quem está por trás.">
 
-<title>📘 🧑‍💻 Sobre o Site e Sobre Mim – Romance da Matemática</title>
+<title>Sobre o Projeto e Sobre Mim – Romance da Matemática</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,38 +80,11 @@ ul.task-list li input[type="checkbox"] {
   gtag('config', 'G-J5PFZRLEKX');
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
 <link rel="stylesheet" href="../../assets/css/custom.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -192,7 +165,7 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -200,46 +173,40 @@ window.Quarto = {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#sobre-mim" id="toc-sobre-mim" class="nav-link active" data-scroll-target="#sobre-mim"><span class="header-section-number">1</span> 👋 Sobre Mim</a></li>
-  <li><a href="#sobre-o-blog" id="toc-sobre-o-blog" class="nav-link" data-scroll-target="#sobre-o-blog"><span class="header-section-number">2</span> 💡 Sobre o Blog</a>
-  <ul class="collapse">
-  <li><a href="#tecnologias-utilizadas" id="toc-tecnologias-utilizadas" class="nav-link" data-scroll-target="#tecnologias-utilizadas"><span class="header-section-number">2.1</span> Tecnologias utilizadas</a></li>
-  <li><a href="#estrutura-geral" id="toc-estrutura-geral" class="nav-link" data-scroll-target="#estrutura-geral"><span class="header-section-number">2.2</span> Estrutura geral</a></li>
-  <li><a href="#como-este-projeto-funciona" id="toc-como-este-projeto-funciona" class="nav-link" data-scroll-target="#como-este-projeto-funciona"><span class="header-section-number">2.3</span> 🛠️ Como Este Projeto Funciona</a>
-  <ul class="collapse">
-  <li><a href="#scripts-ativos" id="toc-scripts-ativos" class="nav-link" data-scroll-target="#scripts-ativos"><span class="header-section-number">2.3.1</span> 📜 Scripts ativos</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#links-úteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-úteis"><span class="header-section-number">3</span> 🔗 Links Úteis</a></li>
+  <li><a href="#por-que-este-projeto-existe" id="toc-por-que-este-projeto-existe" class="nav-link active" data-scroll-target="#por-que-este-projeto-existe">Por que este projeto existe?</a></li>
+  <li><a href="#como-funciona-estrutura-dos-capítulos" id="toc-como-funciona-estrutura-dos-capítulos" class="nav-link" data-scroll-target="#como-funciona-estrutura-dos-capítulos">Como funciona (estrutura dos capítulos)</a></li>
+  <li><a href="#metodologia-em-poucas-palavras" id="toc-metodologia-em-poucas-palavras" class="nav-link" data-scroll-target="#metodologia-em-poucas-palavras">Metodologia em poucas palavras</a></li>
+  <li><a href="#como-navegar" id="toc-como-navegar" class="nav-link" data-scroll-target="#como-navegar">Como navegar</a></li>
+  <li><a href="#sobre-mim" id="toc-sobre-mim" class="nav-link" data-scroll-target="#sobre-mim">Sobre mim</a></li>
+  <li><a href="#perguntas-frequentes-faq" id="toc-perguntas-frequentes-faq" class="nav-link" data-scroll-target="#perguntas-frequentes-faq">❓ Perguntas frequentes (FAQ)</a></li>
+  <li><a href="#créditos-e-referências" id="toc-créditos-e-referências" class="nav-link" data-scroll-target="#créditos-e-referências">📚 Créditos e Referências</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">📘 🧑‍💻 Sobre o Site e Sobre Mim</h1>
+<h1 class="title">Sobre o Projeto e Sobre Mim</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">sobre</div>
-    <div class="quarto-category">sobre o site</div>
-    <div class="quarto-category">sobre mim</div>
+    <div class="quarto-category">Sobre</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Saiba mais sobre o autor, a proposta do site, como ele foi feito e os bastidores técnicos do projeto.
+    O que é o Romance da Matemática, como funciona e quem está por trás.
   </div>
 </div>
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     <div>
     <div class="quarto-title-meta-heading">Autor</div>
     <div class="quarto-title-meta-contents">
-             <p>Romance da Matemática: Aventuras no Ensino Médio </p>
+             <p>Celso Marcellini </p>
           </div>
   </div>
     
@@ -258,139 +225,114 @@ window.Quarto = {
 </header>
 
 
-<hr>
-<p><a href="../../posts/sobre/">← Voltar para a Seção do Blog Pessoal 🧑‍🏫</a></p>
-<hr>
-<section id="sobre-mim" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> 👋 Sobre Mim</h1>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Dica
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<p>Este blog nasceu do desejo de compartilhar ideias, experiências e aprendizados sobre ciência, matemática e programação com pessoas curiosas e interessadas.</p>
-</div>
-</div>
-</div>
-<p>Meu nome é Celso Marcellini, sou Bacharel em Matemática pelo Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP), e este blog nasceu do desejo de explorar matemática, estatística, física, LaTeX, Quarto e programação de forma acessível e visual.</p>
-<div class="callout callout-style-default callout-note callout-titled" title="✍️ Reflexão do autor">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-✍️ Reflexão do autor
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Sou formado em matemática pura, e sempre fui apaixonado pela teoria da relatividade, tanto especial quanto geral.<br>
-A matemática que estrutura essas teorias físicas é, para mim, de uma beleza indescritível.</p>
-<p>Uma das ideias mais marcantes que encontrei foi a noção de <strong>quadrivetor velocidade</strong> no espaço-tempo quadridimensional.<br>
-Perceber que uma grandeza física como a velocidade pode ser expressa como um vetor no espaço de Minkowski — com a soma quadrática de suas componentes igual a <span class="math inline">\(c^2\)</span> — me revelou algo de extrema profundidade.</p>
-<p>Quando compreendi que, para qualquer corpo com massa, a <strong>norma do quadrivetor velocidade</strong> é sempre <span class="math inline">\(c\)</span>, entendi também o seguinte:<br>
-se estamos em repouso, nossa velocidade espacial é zero, e nossa velocidade temporal é <span class="math inline">\(c\)</span>;<br>
-à medida que nos movemos, parte dessa “velocidade total” é transferida ao espaço, reduzindo nossa velocidade no tempo.<br>
-Mas a soma vetorial — no sentido da métrica pseudo-euclideana — permanece constante.<br>
-Isso implica, de forma direta, a <strong>dilatação temporal</strong>: envelhecemos menos quando estamos em movimento.</p>
-<p>Mais tarde, ao estudar relatividade geral, descobri que o espaço-tempo é uma <strong>variedade diferencial pseudo-riemanniana</strong>, com uma métrica que se curva em resposta à presença de massa e energia.<br>
-A frase de Wheeler me acompanhou desde então:</p>
-<blockquote class="blockquote">
-<p><em>“O espaço diz à matéria como ela deve se mover, e a matéria diz ao espaço como ele deve se curvar.”</em></p>
-</blockquote>
-<p>Essa síntese é, para mim, de uma beleza ímpar.</p>
-<p>Também me encanta a ideia de que a física ainda busca uma <strong>teoria unificada</strong> — algo que integre a relatividade geral com a mecânica quântica.<br>
-Se um dia conseguirmos explicar o macro e o micro com uma só estrutura matemática coerente, isso será, sem dúvida, um triunfo supremo do pensamento humano.</p>
-<p>Por fim, como matemático, reconheço a mesma beleza nos alicerces formais da própria matemática.<br>
-A forma axiomática como desenvolvemos teoremas, estruturas e teorias exige elegância, coerência e inevitabilidade.<br>
-Não é por acaso que Hardy disse que <strong>a beleza é o primeiro teste</strong>.<br>
-Essa afirmação não é apenas filosófica — é um critério silencioso que nos guia enquanto provamos.</p>
-</div>
-</div>
-</section>
-<section id="sobre-o-blog" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> 💡 Sobre o Blog</h1>
-<p>Este blog foi construído com o <a href="https://quarto.org">Quarto</a>, uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX.</p>
-<section id="tecnologias-utilizadas" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="tecnologias-utilizadas"><span class="header-section-number">2.1</span> Tecnologias utilizadas</h2>
-<ul>
-<li><strong>Quarto</strong>: para renderização de arquivos <code>.qmd</code> em HTML</li>
-<li><strong>RevealJS</strong>: para apresentações interativas</li>
-<li><strong>MathJax</strong>: para fórmulas matemáticas</li>
-<li><strong>AWS S3</strong> ou <strong>GitHub Pages</strong>: para hospedagem como site estático</li>
-<li><strong>TikZ + PNG</strong>: diagramas convertidos e incorporados</li>
-<li><strong>Tema Bootstrap <code>cosmo</code></strong> e <code>styles.scss</code> customizado</li>
-</ul>
-</section>
-<section id="estrutura-geral" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="estrutura-geral"><span class="header-section-number">2.2</span> Estrutura geral</h2>
-<ul>
-<li><code>index.qmd</code>: página inicial</li>
-<li><code>posts/*.qmd</code>: cada post individual</li>
-<li><code>sobre.qmd</code>: sobre o autor</li>
-<li><code>images/</code>: imagens utilizadas</li>
-<li><code>_quarto.yml</code>: configurações do site</li>
-</ul>
-<hr>
-</section>
-<section id="como-este-projeto-funciona" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="como-este-projeto-funciona"><span class="header-section-number">2.3</span> 🛠️ Como Este Projeto Funciona</h2>
-<section id="scripts-ativos" class="level3" data-number="2.3.1">
-<h3 data-number="2.3.1" class="anchored" data-anchor-id="scripts-ativos"><span class="header-section-number">2.3.1</span> 📜 Scripts ativos</h3>
-<ul>
-<li><p><code>atualizar-ultimos-posts.sh</code>:<br>
-Gera a lista dos últimos posts publicados com base na data e salva em um bloco reutilizável (por exemplo, <code>ultimos_posts.qmd</code>).</p></li>
-<li><p><code>gerar_posts_json.py</code>:<br>
-Percorre todos os arquivos <code>.qmd</code> do blog e extrai metadados (título, tags, caminho) para gerar o arquivo <code>docs/posts.json</code>, que é usado em scripts de tags e navegação.</p></li>
-<li><p><code>gerar_tags.py</code>:<br>
-Lê o arquivo <code>posts.json</code> e gera os arquivos <code>tags_freq.txt</code>, <code>tags.qmd</code>, <code>lista_tags_gerada.html</code> com a contagem de cada tag usada no blog.</p></li>
-<li><p><code>nuvem_tags.py</code>:<br>
-Gera a imagem <code>nuvem_tags.png</code> com uma nuvem de palavras baseada na frequência das tags, usada no post de navegação por tags.</p></li>
-<li><p><code>atualizar_tags.sh</code>:<br>
-Gera as páginas individuais para cada tag (<code>tags/*.qmd</code>), atualiza o arquivo <code>tags.qmd</code> com links, e executa a geração da nuvem de tags.</p></li>
-<li><p><code>atualizar_tudo.sh</code>:<br>
-Executa todos os scripts anteriores em ordem lógica (últimos posts → JSON → tags → nuvem), garantindo que tudo esteja atualizado com um único comando.</p></li>
-</ul>
-<hr>
-<p><a href="../../posts/sobre/">← Voltar para a Seção do Blog Pessoal 🧑‍🏫</a></p>
-<hr>
-<p>🔝 <a href="../../posts/sobre/sobre-o-blog.html">Voltar ao Topo</a></p>
-<hr>
-<p>**</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Nota
+Em uma frase
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><em>Criado por Romance da Matemática: Aventuras no Ensino Médio com ❤️ e código.</em></p>
+<p><strong>Romance da Matemática</strong> é um projeto que ensina conteúdos do Ensino Médio por meio de <strong>histórias</strong>, <strong>exemplos guiados</strong> e <strong>minidesafios</strong> com gabarito — conectando intuição, técnica e aplicação.</p>
+</div>
+</div>
+<section id="por-que-este-projeto-existe" class="level2">
+<h2 class="anchored" data-anchor-id="por-que-este-projeto-existe">Por que este projeto existe?</h2>
+<p>Quero tornar a Matemática mais <strong>significativa</strong> para quem aprende. Em vez de começar pela fórmula, começamos por um <strong>enredo curto</strong> (ou situação realista), que dá propósito aos conceitos. Depois, entramos na parte formal — com definições, propriedades e demonstrações quando for pertinente.</p>
+<blockquote class="blockquote">
+<p>“A espécie humana pensa por metáforas e aprende por meio de histórias.”<br>
+— <em>Mary Catherine Bateson</em><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+</blockquote>
+</section>
+<section id="como-funciona-estrutura-dos-capítulos" class="level2">
+<h2 class="anchored" data-anchor-id="como-funciona-estrutura-dos-capítulos">Como funciona (estrutura dos capítulos)</h2>
+<p>Cada capítulo segue um roteiro constante:</p>
+<ol type="1">
+<li><strong>Narrativa inicial</strong> (<em>storytelling</em><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>) para ativar a intuição.</li>
+<li><strong>Mapa do conteúdo</strong> com objetivos e pré-requisitos.</li>
+<li><strong>Exemplos resolvidos</strong> passo a passo, com justificativas linha a linha.</li>
+<li><strong>Minidesafios</strong> com dicas graduais, antes do gabarito.</li>
+<li><strong>Exercícios</strong> com gabarito comentado.</li>
+<li>Quando útil, <strong>comparações</strong> entre abordagens (R, Python, Excel) e visualizações.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Dica
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Para quem é?</strong><br>
+Estudantes do <strong>Ensino Médio</strong>, vestibulandos e professores que buscam exemplos claros, material reutilizável e <strong>sequências didáticas</strong> prontas para sala de aula.</p>
 </div>
 </div>
 </section>
-</section>
-</section>
-<section id="links-úteis" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> 🔗 Links Úteis</h1>
+<section id="metodologia-em-poucas-palavras" class="level2">
+<h2 class="anchored" data-anchor-id="metodologia-em-poucas-palavras">Metodologia em poucas palavras</h2>
 <ul>
-<li>🧑‍🏫 <a href="../../posts/sobre/sobre-o-blog.html">Sobre o Blog</a></li>
-<li>💻 <a href="https://github.com/marcellini-celso/blog-marcellini-pt.git" target="_blank">GitHub do Projeto</a></li>
-<li>📬 <a href="mailto:prof.marcellini@gmail.com">Contato por E-mail</a></li>
+<li><strong>Narrativa</strong> para motivar e gerar curiosidade.</li>
+<li><strong>Aprendizagem ativa</strong> (você tenta antes de ver o gabarito).</li>
+<li><strong>Resolução guiada</strong> (o raciocínio é explicitado, não “pulado”).</li>
+<li><strong>Visualização</strong> e <strong>interpretação</strong> (gráficos, tabelas, figuras).</li>
+<li><strong>Integração de ferramentas</strong>: R, Python e, quando fizer sentido, Excel.</li>
+<li><strong>Rigor</strong> onde importa: definições e demonstrações sem abrir mão da intuição.</li>
 </ul>
+</section>
+<section id="como-navegar" class="level2">
+<h2 class="anchored" data-anchor-id="como-navegar">Como navegar</h2>
+<ul>
+<li><strong>Capítulos</strong>: comece por <a href="../capitulos/cap1-funcao-quadratica.html">Capítulo 1 — Função Quadrática</a>.</li>
+<li><strong>Tags</strong>: explore por assunto em <a href="../../tags.html">🏷️ Tags</a>.</li>
+<li><strong>Categorias</strong>: veja coleções em <a href="../../categories.html">📂 Categorias</a>.</li>
+</ul>
+<blockquote class="blockquote">
+<p>Dica: na barra superior, use o menu de <strong>Categorias</strong> para filtrar rapidamente os posts.</p>
+</blockquote>
+</section>
+<section id="sobre-mim" class="level2">
+<h2 class="anchored" data-anchor-id="sobre-mim">Sobre mim</h2>
+<p>Sou <strong>Celso Marcellini</strong>, professor e autor do projeto. Tenho formação em <strong>Matemática</strong> (com passagem por áreas de <strong>Estatística</strong> e aplicações). Valorizo demonstrações rigorosas, mas também o <strong>caminho</strong> até elas: a boa explicação, a narrativa e a visualização que tornam os resultados memoráveis.</p>
+<ul>
+<li>Interesses atuais: ensino de Matemática e <strong>Estatística</strong> com apoio de R/Python, materiais reprodutíveis com <strong>Quarto</strong> e <strong>LaTeX</strong>.</li>
+<li>Sistema: <strong>Debian</strong> (Linux), ferramentas livres quando possível.</li>
+<li>Outros projetos: o <strong>Blog do Marcellini</strong>, com conteúdos técnicos e didáticos.</li>
+</ul>
+<p><strong>Contato:</strong> <a href="mailto:prof.marcellini@gmail.com">prof.marcellini@gmail.com</a></p>
+</section>
+<section id="perguntas-frequentes-faq" class="level2">
+<h2 class="anchored" data-anchor-id="perguntas-frequentes-faq">❓ Perguntas frequentes (FAQ)</h2>
+<p><strong>Qual o nível de formalidade?</strong><br>
+Busco equilíbrio: começo pela intuição e chego ao rigor quando necessário para consolidar o conteúdo.</p>
+<p><strong>Posso reutilizar materiais?</strong><br>
+Sim, dentro dos termos da <strong>licença do repositório</strong>. Dê crédito e link de volta.</p>
+<p><strong>Tem conteúdo para professores?</strong><br>
+Sim: mapas de aula, listas, slides e sugestões de atividades.</p>
+</section>
+<section id="créditos-e-referências" class="level2">
+<h2 class="anchored" data-anchor-id="créditos-e-referências">📚 Créditos e Referências</h2>
+<ul>
+<li>💡 <strong>Inspiração didática</strong>: aprendizagem ativa, resolução guiada e narrativa.</li>
+<li>🛠️ <strong>Ferramentas</strong>: Quarto, R/Python, LaTeX.</li>
+<li>Agradecimentos a autores e comunidades que disponibilizam materiais abertos.</li>
+</ul>
+<p><small class="text-muted">Para sugestões e correções, abra uma <em>issue</em> no repositório do projeto ou entre em contato por e-mail.</small> “““)</p>
 
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+
+<ol>
+<li id="fn1"><p>Mary Catherine Bateson, <em>Composing a Life</em> (1989). <em>“The human species thinks in metaphors and learns through stories.”</em><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><em>Storytelling</em> — em português, <strong>narrativa</strong>. Mantemos o termo em inglês por ser comum na literatura de ensino.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -794,7 +736,7 @@ Nota
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 - Romance da Matemática</p>
+<p>© 2025 - Romance da Matemática: Aventuras no Ensino Médio</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

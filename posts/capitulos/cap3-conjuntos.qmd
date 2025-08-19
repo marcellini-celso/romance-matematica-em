@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 3 — A Jornada dos Conjuntos"
+title: "📘 Capítulo 3 — A Jornada dos Conjuntos"
 description: ""
 author: "Romance da Matemática: Aventuras no Ensino Médio"
 date: 2025-08-18

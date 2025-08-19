@@ -1,0 +1,10 @@
+---
+title: "metodologia"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **metodologia**
+
+- [Sobre o Projeto e Sobre Mim](/posts/sobre/sobre-o-blog.html)

@@ -1,136 +1,94 @@
 ---
-title: "📘 🧑‍💻 Sobre o Site e Sobre Mim"
-description: "Saiba mais sobre o autor, a proposta do site, como ele foi feito e os bastidores técnicos do projeto."
-author: "Romance da Matemática: Aventuras no Ensino Médio"
-date: 2025-08-19
+title: "Sobre o Projeto e Sobre Mim"
+description: "O que é o Romance da Matemática, como funciona e quem está por trás."
+author: "Celso Marcellini"
+date: "2025-08-19"
 lang: pt-BR
+image: "../../images/banner.jpeg"
+categories: ["Sobre"]
+tags: [projeto, metodologia, storytelling, ensino médio]
 format:
   html:
-    toc: true
-    number-sections: true
     theme: cosmo
-    fig-align: center
-    code-overflow: scroll
-    df-print: paged
+    toc: true
+    toc-title: "Nesta página"
+    code-copy: true
     highlight-style: github
-    code-link: true
-page-layout: full
-categories: [sobre, sobre o site, sobre mim]
-tags: [sobre, sobre o site, sobre mim]
+    css:
+      - styles.css
+      - assets/css/custom.css
 ---
 
----
-
-[← Voltar para a Seção do Blog Pessoal 🧑‍🏫](/posts/sobre/)
-
----
-
-# 👋 Sobre Mim
-
-::: {.callout-tip collapse=false icon='🌟'}
-Este blog nasceu do desejo de compartilhar ideias, experiências e aprendizados sobre ciência, matemática e programação com pessoas curiosas e interessadas.
+::: callout-note
+# Em uma frase
+**Romance da Matemática** é um projeto que ensina conteúdos do Ensino Médio por meio de **histórias**, **exemplos guiados** e **minidesafios** com gabarito — conectando intuição, técnica e aplicação.
 :::
 
-Meu nome é Celso Marcellini, sou Bacharel em Matemática pelo Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP), e este blog nasceu do desejo de explorar matemática, estatística, física, LaTeX, Quarto e programação de forma acessível e visual.
+## Por que este projeto existe?
+Quero tornar a Matemática mais **significativa** para quem aprende. Em vez de começar pela fórmula, começamos por um **enredo curto** (ou situação realista), que dá propósito aos conceitos. Depois, entramos na parte formal — com definições, propriedades e demonstrações quando for pertinente.
 
+> “A espécie humana pensa por metáforas e aprende por meio de histórias.”  
+> — *Mary Catherine Bateson*[^bateson]
 
-::: {.callout-note icon="✍️" title="✍️ Reflexão do autor"}
+[^bateson]: Mary Catherine Bateson, *Composing a Life* (1989). *“The human species thinks in metaphors and learns through stories.”*
 
-Sou formado em matemática pura, e sempre fui apaixonado pela teoria da relatividade, tanto especial quanto geral.  
-A matemática que estrutura essas teorias físicas é, para mim, de uma beleza indescritível.
+## Como funciona (estrutura dos capítulos)
+Cada capítulo segue um roteiro constante:
 
-Uma das ideias mais marcantes que encontrei foi a noção de **quadrivetor velocidade** no espaço-tempo quadridimensional.  
-Perceber que uma grandeza física como a velocidade pode ser expressa como um vetor no espaço de Minkowski — com a soma quadrática de suas componentes igual a $c^2$ — me revelou algo de extrema profundidade.
+1. **Narrativa inicial** (*storytelling*[^storytelling]) para ativar a intuição.
+2. **Mapa do conteúdo** com objetivos e pré-requisitos.
+3. **Exemplos resolvidos** passo a passo, com justificativas linha a linha.
+4. **Minidesafios** com dicas graduais, antes do gabarito.
+5. **Exercícios** com gabarito comentado.
+6. Quando útil, **comparações** entre abordagens (R, Python, Excel) e visualizações.
 
-Quando compreendi que, para qualquer corpo com massa, a **norma do quadrivetor velocidade** é sempre $c$, entendi também o seguinte:  
-se estamos em repouso, nossa velocidade espacial é zero, e nossa velocidade temporal é $c$;  
-à medida que nos movemos, parte dessa “velocidade total” é transferida ao espaço, reduzindo nossa velocidade no tempo.  
-Mas a soma vetorial — no sentido da métrica pseudo-euclideana — permanece constante.  
-Isso implica, de forma direta, a **dilatação temporal**: envelhecemos menos quando estamos em movimento.
+[^storytelling]: *Storytelling* — em português, **narrativa**. Mantemos o termo em inglês por ser comum na literatura de ensino.
 
-Mais tarde, ao estudar relatividade geral, descobri que o espaço-tempo é uma **variedade diferencial pseudo-riemanniana**, com uma métrica que se curva em resposta à presença de massa e energia.  
-A frase de Wheeler me acompanhou desde então:
-
-> *“O espaço diz à matéria como ela deve se mover, e a matéria diz ao espaço como ele deve se curvar.”*
-
-Essa síntese é, para mim, de uma beleza ímpar.
-
-Também me encanta a ideia de que a física ainda busca uma **teoria unificada** — algo que integre a relatividade geral com a mecânica quântica.  
-Se um dia conseguirmos explicar o macro e o micro com uma só estrutura matemática coerente, isso será, sem dúvida, um triunfo supremo do pensamento humano.
-
-Por fim, como matemático, reconheço a mesma beleza nos alicerces formais da própria matemática.  
-A forma axiomática como desenvolvemos teoremas, estruturas e teorias exige elegância, coerência e inevitabilidade.  
-Não é por acaso que Hardy disse que **a beleza é o primeiro teste**.  
-Essa afirmação não é apenas filosófica — é um critério silencioso que nos guia enquanto provamos.
-
+::: callout-tip
+**Para quem é?**  
+Estudantes do **Ensino Médio**, vestibulandos e professores que buscam exemplos claros, material reutilizável e **sequências didáticas** prontas para sala de aula.
 :::
 
+## Metodologia em poucas palavras
+- **Narrativa** para motivar e gerar curiosidade.
+- **Aprendizagem ativa** (você tenta antes de ver o gabarito).
+- **Resolução guiada** (o raciocínio é explicitado, não “pulado”).
+- **Visualização** e **interpretação** (gráficos, tabelas, figuras).
+- **Integração de ferramentas**: R, Python e, quando fizer sentido, Excel.
+- **Rigor** onde importa: definições e demonstrações sem abrir mão da intuição.
 
-# 💡 Sobre o Blog
+## Como navegar
+- **Capítulos**: comece por [Capítulo 1 — Função Quadrática](../capitulos/cap1-funcao-quadratica.html).
+- **Tags**: explore por assunto em [🏷️ Tags](../../tags.html).
+- **Categorias**: veja coleções em [📂 Categorias](../../categories.html).
 
-Este blog foi construído com o [Quarto](https://quarto.org), uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX.
+> Dica: na barra superior, use o menu de **Categorias** para filtrar rapidamente os posts.
 
-## Tecnologias utilizadas
+## Sobre mim
+Sou **Celso Marcellini**, professor e autor do projeto. Tenho formação em **Matemática** (com passagem por áreas de **Estatística** e aplicações). Valorizo demonstrações rigorosas, mas também o **caminho** até elas: a boa explicação, a narrativa e a visualização que tornam os resultados memoráveis.
 
-- **Quarto**: para renderização de arquivos `.qmd` em HTML
-- **RevealJS**: para apresentações interativas
-- **MathJax**: para fórmulas matemáticas
-- **AWS S3** ou **GitHub Pages**: para hospedagem como site estático
-- **TikZ + PNG**: diagramas convertidos e incorporados
-- **Tema Bootstrap `cosmo`** e `styles.scss` customizado
+- Interesses atuais: ensino de Matemática e **Estatística** com apoio de R/Python, materiais reprodutíveis com **Quarto** e **LaTeX**.
+- Sistema: **Debian** (Linux), ferramentas livres quando possível.
+- Outros projetos: o **Blog do Marcellini**, com conteúdos técnicos e didáticos.
 
-## Estrutura geral
+**Contato:** [prof.marcellini@gmail.com](mailto:prof.marcellini@gmail.com)
 
-- `index.qmd`: página inicial
-- `posts/*.qmd`: cada post individual
-- `sobre.qmd`: sobre o autor
-- `images/`: imagens utilizadas
-- `_quarto.yml`: configurações do site
+## ❓ Perguntas frequentes (FAQ)
+**Qual o nível de formalidade?**  
+Busco equilíbrio: começo pela intuição e chego ao rigor quando necessário para consolidar o conteúdo.
 
----
+**Posso reutilizar materiais?**  
+Sim, dentro dos termos da **licença do repositório**. Dê crédito e link de volta.
 
-## 🛠️ Como Este Projeto Funciona
+**Tem conteúdo para professores?**  
+Sim: mapas de aula, listas, slides e sugestões de atividades.
 
+## 📚 Créditos e Referências
+- 💡 **Inspiração didática**: aprendizagem ativa, resolução guiada e narrativa.
+- 🛠️ **Ferramentas**: Quarto, R/Python, LaTeX.
+- Agradecimentos a autores e comunidades que disponibilizam materiais abertos.
 
-### 📜 Scripts ativos
+<small class="text-muted">Para sugestões e correções, abra uma *issue* no repositório do projeto ou entre em contato por e-mail.</small>
+""")
 
-- `atualizar-ultimos-posts.sh`:  
-  Gera a lista dos últimos posts publicados com base na data e salva em um bloco reutilizável (por exemplo, `ultimos_posts.qmd`).
-
-- `gerar_posts_json.py`:  
-  Percorre todos os arquivos `.qmd` do blog e extrai metadados (título, tags, caminho) para gerar o arquivo `docs/posts.json`, que é usado em scripts de tags e navegação.
-
-- `gerar_tags.py`:  
-  Lê o arquivo `posts.json` e gera os arquivos `tags_freq.txt`, `tags.qmd`, `lista_tags_gerada.html` com a contagem de cada tag usada no blog.
-
-- `nuvem_tags.py`:  
-  Gera a imagem `nuvem_tags.png` com uma nuvem de palavras baseada na frequência das tags, usada no post de navegação por tags.
-
-- `atualizar_tags.sh`:  
-  Gera as páginas individuais para cada tag (`tags/*.qmd`), atualiza o arquivo `tags.qmd` com links, e executa a geração da nuvem de tags.
-
-- `atualizar_tudo.sh`:  
-  Executa todos os scripts anteriores em ordem lógica (últimos posts → JSON → tags → nuvem), garantindo que tudo esteja atualizado com um único comando.
-
----
-
-[← Voltar para a Seção do Blog Pessoal 🧑‍🏫](/posts/sobre/)
-
----
-
-🔝 [Voltar ao Topo](sobre-o-blog.qmd)
-
----
-
-**
-
-:::{.callout-note}
-*Criado por Romance da Matemática: Aventuras no Ensino Médio com ❤️ e código.*
-:::
-
-# 🔗 Links Úteis
-
-- 🧑‍🏫 [Sobre o Blog](../../posts/sobre/sobre-o-blog.qmd)
-- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-pt.git" target="_blank">GitHub do Projeto</a>
-- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

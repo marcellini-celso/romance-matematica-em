@@ -10,12 +10,13 @@
     ]
   },
   {
-    "title": "📘 🧑‍💻 Sobre o Site e Sobre Mim",
+    "title": "Sobre o Projeto e Sobre Mim",
     "href": "posts/sobre/sobre-o-blog.html",
     "tags": [
-      "sobre",
-      "sobre o site",
-      "sobre mim"
+      "projeto",
+      "metodologia",
+      "storytelling",
+      "ensino médio"
     ]
   },
   {
@@ -29,7 +30,7 @@
     ]
   },
   {
-    "title": "Capítulo 3 — A Jornada dos Conjuntos",
+    "title": "📘 Capítulo 3 — A Jornada dos Conjuntos",
     "href": "posts/capitulos/cap3-conjuntos.html",
     "tags": [
       "quadrática",
@@ -39,7 +40,7 @@
     ]
   },
   {
-    "title": "Capítulo 2 — O Reino dos Números",
+    "title": "📘 Capítulo 2 — O Reino dos Números",
     "href": "posts/capitulos/cap2-numeros-conjuntos.html",
     "tags": [
       "quadrática",

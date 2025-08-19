@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 2 — O Reino dos Números"
+title: "📘 Capítulo 2 — O Reino dos Números"
 description: ""
 author: "Romance da Matemática: Aventuras no Ensino Médio"
 date: 2025-08-18

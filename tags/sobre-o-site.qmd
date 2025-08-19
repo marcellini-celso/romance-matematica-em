@@ -8,4 +8,3 @@ format: html
 ## Posts com a tag **sobre o site**
 
 - [🧑‍🏫 Sobre](/posts/sobre/index.html)
-- [📘 🧑‍💻 Sobre o Site e Sobre Mim](/posts/sobre/sobre-o-blog.html)

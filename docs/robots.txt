@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blogdomarcellini.com.br/sitemap.xml
+Sitemap: https://marcellini-celso.github.io/romance-matematica-em/index.html/sitemap.xml

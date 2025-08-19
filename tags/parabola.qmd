@@ -8,5 +8,5 @@ format: html
 ## Posts com a tag **parábola**
 
 - [📘 Capítulo 1 — A Função do 2º Grau](/posts/capitulos/cap1-funcao-quadratica.html)
-- [Capítulo 3 — A Jornada dos Conjuntos](/posts/capitulos/cap3-conjuntos.html)
-- [Capítulo 2 — O Reino dos Números](/posts/capitulos/cap2-numeros-conjuntos.html)
+- [📘 Capítulo 3 — A Jornada dos Conjuntos](/posts/capitulos/cap3-conjuntos.html)
+- [📘 Capítulo 2 — O Reino dos Números](/posts/capitulos/cap2-numeros-conjuntos.html)

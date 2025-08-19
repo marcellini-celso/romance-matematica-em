@@ -1,0 +1,10 @@
+---
+title: "ensino médio"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **ensino médio**
+
+- [Sobre o Projeto e Sobre Mim](/posts/sobre/sobre-o-blog.html)

@@ -2,7 +2,11 @@
 3 discriminante
 3 parábola
 3 quadrática
-2 sobre
-2 sobre mim
-2 sobre o site
+1 ensino médio
+1 metodologia
+1 projeto
+1 sobre
+1 sobre mim
+1 sobre o site
+1 storytelling
 1 sumário

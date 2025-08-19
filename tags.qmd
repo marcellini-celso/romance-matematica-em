@@ -16,8 +16,12 @@ page-layout: full
 <a href="/tags/discriminante.html" class="tag-card">discriminante (3)</a>
 <a href="/tags/parabola.html" class="tag-card">parábola (3)</a>
 <a href="/tags/quadratica.html" class="tag-card">quadrática (3)</a>
-<a href="/tags/sobre.html" class="tag-card">sobre (2)</a>
-<a href="/tags/sobre-mim.html" class="tag-card">sobre mim (2)</a>
-<a href="/tags/sobre-o-site.html" class="tag-card">sobre o site (2)</a>
+<a href="/tags/ensino-medio.html" class="tag-card">ensino médio (1)</a>
+<a href="/tags/metodologia.html" class="tag-card">metodologia (1)</a>
+<a href="/tags/projeto.html" class="tag-card">projeto (1)</a>
+<a href="/tags/sobre.html" class="tag-card">sobre (1)</a>
+<a href="/tags/sobre-mim.html" class="tag-card">sobre mim (1)</a>
+<a href="/tags/sobre-o-site.html" class="tag-card">sobre o site (1)</a>
+<a href="/tags/storytelling.html" class="tag-card">storytelling (1)</a>
 <a href="/tags/sumario.html" class="tag-card">sumário (1)</a>
 :::

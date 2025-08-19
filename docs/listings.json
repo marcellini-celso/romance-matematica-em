@@ -2,23 +2,27 @@
   {
     "listing": "/categories.html",
     "items": [
+      "/posts/sobre/sobre-o-blog.html",
       "/posts/capitulos/cap3-conjuntos.html",
       "/posts/capitulos/cap1-funcao-quadratica.html",
       "/guia.html",
       "/posts/capitulos/cap2-numeros-conjuntos.html",
-      "/posts/sobre/sobre-o-blog.html",
       "/posts/sobre/index.html",
       "/index.html",
       "/tags.html",
       "/lista_tags_gerada.html",
+      "/tags/metodologia.html",
       "/tags/sumario.html",
       "/tags/sobre-o-site.html",
       "/tags/sobre.html",
+      "/tags/ensino-medio.html",
+      "/tags/storytelling.html",
       "/tags/sobre-mim.html",
       "/tags/quadratica.html",
       "/tags/discriminante.html",
       "/tags/bhaskara.html",
-      "/tags/parabola.html"
+      "/tags/parabola.html",
+      "/tags/projeto.html"
     ]
   }
 ]
